@@ -45,7 +45,7 @@ site must be responsive to cater to phones, tablets and desktops
 ### Project plan & timeline
 
 ### Screenshots of Trello board(s)
-![trello]: (./docs/trello.png)
+![trello](./docs/trello.png)
 ## Short Answer Q&A - Include short answers to the following questions,
 
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
