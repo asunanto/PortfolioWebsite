@@ -19,6 +19,7 @@ A single page with the following information
 - Information about you to demonstrate your personality.
 - Your study and work history.
 ### Screenshots
+![prototype](./docs/prototype.jpeg)
 ### Target audience
 prospective employers 
 
@@ -35,15 +36,24 @@ html and css
 5) write contents for the webpage
 6) write html
 7) format html using css
-8) lots of testing
+8) responsiveness test
 ### Wireframes
 https://projects.invisionapp.com/freehand/document/YMgYoDwvk
 ### Personal logo (optional)
+![logo](./docs/logo.jpg)
 ### Usability considerations
 site must be responsive to cater to phones, tablets and desktops
 ## Details of planning process
 ### Project plan & timeline
-
+|  			Project activity  			 		             	|  			Due Date 		 	|
+|----------------------------------	|------------	|
+|  			Draw layout for portfolio page 		 	|  			18/9 		     	|
+|  			Wire frame 		                     	|  			18/9 		     	|
+|  			Mood boarding 		                  	|  			19/9 		     	|
+|  			Personal logo 		                  	|  			19/9 		     	|
+|  			Write html 		                     	|  			20/9 		     	|
+|  			Format and style html 		          	|  			21/9 		     	|
+|  			Resposiveness test 		             	|  			21/9 		     	|
 ### Screenshots of Trello board(s)
 ![trello](./docs/trello.png)
 ## Short Answer Q&A - Include short answers to the following questions,
