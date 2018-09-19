@@ -19,7 +19,7 @@ A single page with the following information
 - Information about you to demonstrate your personality.
 - Your study and work history.
 ### Screenshots
-![prototype](./docs/prototype.jpg =500x250)
+<img src="./docs/prototype.jpg" width="40%" height="40%">.
 ### Target audience
 prospective employers 
 
@@ -40,7 +40,7 @@ html and css
 ### Wireframes
 https://projects.invisionapp.com/freehand/document/YMgYoDwvk
 ### Personal logo (optional)
-![logo](./docs/logo.jpg =150x150)
+<img src="./docs/logo.jpg" width="40%" height="40%">.
 ### Usability considerations
 site must be responsive to cater to phones, tablets and desktops
 ## Details of planning process
