@@ -19,7 +19,7 @@ A single page with the following information
 - Information about you to demonstrate your personality.
 - Your study and work history.
 ### Screenshots
-![prototype](./docs/prototype.jpeg)
+![prototype](./docs/prototype.jpg)
 ### Target audience
 prospective employers 
 
