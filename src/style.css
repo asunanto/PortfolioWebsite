@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: justify;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  background: white;
+  position: relative;
+  border: 2px solid gold;
+}
+
+#social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#social-media img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#social-media img:hover {
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+  opacity: 0.5;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: gold;
+}
+
+#about-me {
+  display: block;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+img {
+  width: auto;
+  height: 100px;
+}
+
+#personal-details img {
+  max-width: 35%;
+  height: auto;
+  max-height: 40%;
+}
+
+/* Top right text */
+.top-right {
+  display: initial;
+  border: 0;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 1.2rem;
+  }
+  section h2 {
+    margin-bottom: 0.5rem;
+  }
+  #github,
+  #linked-in,
+  #e-mail {
+    width: 33.3%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 890px) {
+  body {
+    font-size: 1.1rem;
+  }
+  #personal-details img {
+    width: 50%;
+  }
+  #personal-details .top-right {
+    font-size: 2rem;
+  }
+  #work,
+  #study {
+    width: 50%;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  #wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #github,
+  #linked-in,
+  #e-mail {
+    width: 33.3%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Lobster', cursive;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 891px) {
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  body {
+    background-color: gold;
+    /* Blue */
+  }
+  body {
+    font-size: 1.1rem;
+  }
+  #personal-details img {
+    width: 50%;
+  }
+  #personal-details .top-right {
+    font-size: 2rem;
+  }
+  #work,
+  #study {
+    width: 47%;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #github,
+  #linked-in,
+  #e-mail {
+    width: 31.4%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Lobster', cursive;
+  }
+}
+/*# sourceMappingURL=style.css.map */

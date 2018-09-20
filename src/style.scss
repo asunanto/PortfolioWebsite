@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Roboto');
 
-/* applies to everything */
 * {
     margin: 0;
     padding: 0;
@@ -8,18 +7,14 @@
 
 }
 
-/* Base styles */
-
-
 section {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    align-content: center;
+    align-content: space-around;
     flex-wrap: wrap;
-    border: 2px solid gold;
     text-align: justify;
     padding: 1rem 2rem;
     border-radius: 20px;
@@ -27,11 +22,27 @@ section {
     max-width: 900px;
     background: white;
     position: relative;
+    border: 2px solid gold;
 }
 
 #social-media {
     display: flex;
     flex-wrap: wrap;
+
+    img {
+        transition: all 1s;
+
+        &:hover {
+            transform: translate(10px, -10px);
+            opacity: 0.5;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+    }
+}
+
+body {
+    background: gold;
 }
 
 #about-me {
@@ -47,7 +58,7 @@ p {
 }
 
 ul {
-    padding-left: 10px;
+    padding-left: 40px;
 }
 
 img {
@@ -56,9 +67,9 @@ img {
 }
 
 #personal-details img {
-    max-width: 60%;
+    max-width: 35%;
     height: auto;
-    max-height: 30%;
+    max-height: 40%;
 }
 
 
@@ -73,6 +84,8 @@ img {
     font-size: 1.5rem;
     font-family: 'Lobster', cursive;
 }
+
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
@@ -101,7 +114,7 @@ img {
     }
 
     #personal-details img {
-        max-width: 30%;
+        // max-width: 30%;
         width: 50%;
     }
 
@@ -156,7 +169,7 @@ img {
 
     #personal-details img {
         width: 50%;
-        max-width: 30%;
+        // max-width: 30%;
     }
 
     #personal-details .top-right {
