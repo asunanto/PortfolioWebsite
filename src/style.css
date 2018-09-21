@@ -6,6 +6,24 @@
           box-sizing: border-box;
 }
 
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: oblique;
+}
+
+.topnav a:hover {
+  background-color: gold;
+  -webkit-transform: translate(2px, -2px);
+          transform: translate(2px, -2px);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 section {
   width: 100%;
   height: auto;

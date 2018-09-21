@@ -60,11 +60,11 @@ site must be responsive to cater to phones, tablets and desktops
 
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
-n 1980s, Ethernet products for both computer workstations and personal computers emerges; this allows for the establishment of local area networks (LANs). The PhoneNet system is established and is connected to ARPANET and the first commercial network, Telenet. This broadens access to the internet and allows for email communication between multiple nations of the world.  
+In 1980s, Ethernet products for both computer workstations and personal computers emerges; this allows for the establishment of local area networks (LANs). The PhoneNet system is established and is connected to ARPANET and the first commercial network, Telenet. This broadens access to the internet and allows for email communication between multiple nations of the world.  
 
-In 1990,s ARPANET was decommissioned and  HTML and URL was invented. Microsoft launches Windows 95; Amazon, Yahoo and eBay all launch; Internet Explorer launches; and Java is created, allowing for animation on websites and creating a new flurry of internet activities.
+In 1990s, ARPANET was decommissioned. In this decade, the world wide web was invented and internet was highly commercialised around the globe. The first web browsers and search engine was invented popularising the use of internet
 
-2000 sees the rise and burst of the dotcom bubble. This decade also sees the rise and proliferation of Wi-Fi — wireless internet communication — as well as mobile internet devices like smartphones
+2000 sees the rise and burst of the dotcom bubble. This decade also sees the rise and proliferation of Wi-Fi — wireless internet communication — as well as mobile internet devices like smartphones.
 
 2.  Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 
