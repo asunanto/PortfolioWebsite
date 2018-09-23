@@ -79,6 +79,8 @@ A web browser is a software program that allows a user to locate, access, and di
 
 3.  Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
-On a personal level, I believe the development of internet technologies have shaped the way people obtain information and learn. To put my point into perspective, when I was a university student doing my research work, I can access reseach papers online through database with just a click of a mouse. On the other hand, students in the past would have to go to the library and go through a list of research papers . I would imagine looking for information manually to be a time-consuming process nowadays. Therefore, I believe that the introduction of internet has certainly speed up the way people obtain information and learn.
+On a personal level, I believe the development of internet technologies have shaped the way people obtain information and learn. To put my point into perspective, when I was a university student, I can access reseach papers online through database or just use do a google search. I was to able to access information instantly.
+
+ On the other hand, students in the past would have to go to the library and go through a list of research papers . I would imagine looking for information manually to be a time-consuming process during those times. Therefore, I believe that the invention of internet has certainly speed up the way people obtain information and learn.
 
 

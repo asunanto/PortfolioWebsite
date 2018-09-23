@@ -7,23 +7,31 @@
 
 }
 
+// navigation bar setup
 
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 0 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-style: oblique;
+.topnav {
+    a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 0 8px;
+        text-decoration: none;
+        font-size: 17px;
+        font-style: oblique;
+    }
+
+    a:hover {
+        border-radius: 20px;
+        background-color: gold;
+        color: white;
+        transform: translate(2px, -2px);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
 }
 
-.topnav a:hover {
-    background-color: gold;
-    transform: translate(2px, -2px);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
 
+
+// generic setups for flex box;
 section {
     width: 100%;
     height: auto;
@@ -38,25 +46,38 @@ section {
     font-family: 'Roboto', sans-serif;
     max-width: 900px;
     background: white;
-    position: relative;
+    position: relative; // position relative to .top-right
     border: 2px solid gold;
 }
+
+// row properties for social media and email
 
 #social-media {
     display: flex;
     flex-wrap: wrap;
 
-    img {
+    #e-mail a {
+        font-size: 80px;
+    }
+
+    a {
         transition: all 1s;
 
         &:hover {
             transform: translate(10px, -10px);
             opacity: 0.5;
-            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
         }
 
     }
+
+    img {
+        width: auto;
+        height: 80px;
+    }
 }
+
+// global setups
 
 body {
     background: gold;
@@ -80,10 +101,7 @@ ul {
     padding-left: 40px;
 }
 
-img {
-    width: auto;
-    height: 100px;
-}
+
 
 #personal-details img {
     max-width: 40%;
@@ -91,7 +109,7 @@ img {
 }
 
 
-/* Top right text */
+/* Top right text display for name and occupation*/
 .top-right {
     display: initial;
     border: 0;
@@ -99,7 +117,7 @@ img {
     top: 0.5rem;
     right: 0.5rem;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -112,20 +130,19 @@ img {
 
     section {
         text-align: start;
+
+        h2 {
+            margin-bottom: 0.5rem;
+        }
     }
 
-    section h2 {
-        margin-bottom: 0.5rem;
-    }
 
-    #personal-details img {
-        max-width: 70%;
-    }
+    #personal-details {
+        img {
+            max-width: 70%;
+        }
 
-    #personal-details .top-right {
-        font-size: 1.2rem;
     }
-
 
     #github,
     #linked-in,
@@ -136,18 +153,19 @@ img {
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 501px) and (max-width: 890px) {
+@media only screen and (min-width: 501px) and (max-width: 900px) {
     body {
         font-size: 1.1rem;
     }
 
-    #personal-details img {
-        // max-width: 30%;
-        width: 50%;
-    }
+    #personal-details {
+        img {
+            width: 50%;
+        }
 
-    #personal-details .top-right {
-        font-size: 1.8rem;
+        .top-right {
+            font-size: 1.8rem;
+        }
     }
 
     #work,
@@ -174,34 +192,34 @@ img {
         top: 2.5rem;
         right: 1rem;
         text-align: left;
-        font-size: 1.2rem;
-        font-family: 'Lobster', cursive;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 891px) {
+@media only screen and (min-width: 901px) {
     main {
-        width: 960px;
+        width: 960px; //max width of flex box
         margin: 0 auto;
-    }
-
-    body {
-        background-color: gold;
-        /* Blue */
     }
 
     body {
         font-size: 1.1rem;
     }
 
-    #personal-details img {
-        width: 50%;
-        // max-width: 30%;
-    }
+    #personal-details {
+        img {
+            width: 50%;
+        }
 
-    #personal-details .top-right {
-        font-size: 2rem;
+        .top-right {
+            font-size: 2rem;
+            position: absolute;
+            top: 2.5rem;
+            right: 1rem;
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+        }
     }
 
     #work,
@@ -221,15 +239,5 @@ img {
     #e-mail {
         width: 31.4%;
         justify-content: center;
-    }
-
-    /* Top right text */
-    .top-right {
-        position: absolute;
-        top: 2.5rem;
-        right: 1rem;
-        text-align: left;
-        font-size: 1.2rem;
-        font-family: 'Lobster', cursive;
     }
 }

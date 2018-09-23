@@ -10,14 +10,16 @@
   float: left;
   color: black;
   text-align: center;
-  padding: 0 16px;
+  padding: 0 8px;
   text-decoration: none;
   font-size: 17px;
   font-style: oblique;
 }
 
 .topnav a:hover {
+  border-radius: 20px;
   background-color: gold;
+  color: white;
   -webkit-transform: translate(2px, -2px);
           transform: translate(2px, -2px);
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -58,17 +60,24 @@ section {
       flex-wrap: wrap;
 }
 
-#social-media img {
+#social-media #e-mail a {
+  font-size: 80px;
+}
+
+#social-media a {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
-#social-media img:hover {
+#social-media a:hover {
   -webkit-transform: translate(10px, -10px);
           transform: translate(10px, -10px);
   opacity: 0.5;
-  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#social-media img {
+  width: auto;
+  height: 80px;
 }
 
 body {
@@ -93,17 +102,12 @@ ul {
   padding-left: 40px;
 }
 
-img {
-  width: auto;
-  height: 100px;
-}
-
 #personal-details img {
   max-width: 40%;
   height: auto;
 }
 
-/* Top right text */
+/* Top right text display for name and occupation*/
 .top-right {
   display: initial;
   border: 0;
@@ -111,7 +115,7 @@ img {
   top: 0.5rem;
   right: 0.5rem;
   text-align: right;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* Mobile Styles */
@@ -128,9 +132,6 @@ img {
   #personal-details img {
     max-width: 70%;
   }
-  #personal-details .top-right {
-    font-size: 1.2rem;
-  }
   #github,
   #linked-in,
   #e-mail {
@@ -142,7 +143,7 @@ img {
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 501px) and (max-width: 890px) {
+@media only screen and (min-width: 501px) and (max-width: 900px) {
   body {
     font-size: 1.1rem;
   }
@@ -179,20 +180,15 @@ img {
     top: 2.5rem;
     right: 1rem;
     text-align: left;
-    font-size: 1.2rem;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 891px) {
+@media only screen and (min-width: 901px) {
   main {
     width: 960px;
     margin: 0 auto;
-  }
-  body {
-    background-color: gold;
-    /* Blue */
   }
   body {
     font-size: 1.1rem;
@@ -202,6 +198,11 @@ img {
   }
   #personal-details .top-right {
     font-size: 2rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
   }
   #work,
   #study {
@@ -225,15 +226,6 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 2.5rem;
-    right: 1rem;
-    text-align: left;
-    font-size: 1.2rem;
-    font-family: 'Lobster', cursive;
   }
 }
 /*# sourceMappingURL=style.css.map */
